@@ -18,6 +18,9 @@ font pango:monospace 12
 # Run Gnome settings daemon in order to handle configuring gtk applications
 exec /usr/libexec/gnome-settings-daemon-localeexec
 
+# Run the Dunst notification application
+exec dunst
+
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
