@@ -24,6 +24,9 @@ exec /usr/libexec/gnome-settings-daemon-localeexec
 # Run the Dunst notification application
 exec dunst
 
+# Set the background using Feh
+exec feh --bg-scale ~/Pictures/wallpapers/fedora_1.png
+
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
