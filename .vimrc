@@ -16,6 +16,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Add or remove your Bundles here:
 NeoBundle 'alpertuna/vim-header' " License headers
 NeoBundle 'scrooloose/nerdtree' " Directory display
+NeoBundle 'wakatime/vim-wakatime' " Usage reports to WakaTime
 
 " Required:
 call neobundle#end()
