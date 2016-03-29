@@ -14,7 +14,8 @@ call neobundle#begin(expand('/home/chris/.vim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " Add or remove your Bundles here:
-NeoBundle 'alpertuna/vim-header'
+NeoBundle 'alpertuna/vim-header' " License headers
+NeoBundle 'scrooloose/nerdtree' " Directory display
 
 " Required:
 call neobundle#end()
