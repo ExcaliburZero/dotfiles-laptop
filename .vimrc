@@ -29,10 +29,13 @@ NeoBundleCheck
 "End NeoBundle Scripts-------------------------
 
 
-"Vim-Header
+" Vim-Header
 let g:header_field_filename = 0
 let g:header_field_author = 'Christopher Wells'
 let g:header_field_author_email = 'cwellsny@nycap.rr.com'
+
+" NERD Tree
+map <F2> :NERDTreeToggle<CR>
 
 " Color column 80
 set colorcolumn=80
