@@ -1,0 +1,12 @@
+# Run the Compton compsitor
+exec compton -b
+
+# Run Gnome settings daemon in order to handle configuring gtk applications
+exec /usr/libexec/gnome-settings-daemon-localeexec
+
+# Run the Dunst notification application
+exec dunst
+
+# Set the background using Feh
+exec feh --bg-scale ~/Pictures/wallpapers/fedora_1.png
+
