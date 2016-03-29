@@ -40,3 +40,6 @@ map <F2> :NERDTreeToggle<CR>
 
 " Color column 80
 set colorcolumn=80
+
+" Enable relative line numbering
+set relativenumber
