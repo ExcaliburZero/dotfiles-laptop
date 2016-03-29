@@ -9,3 +9,6 @@ fi
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
+
+# Enable Vim keybindings for Bash
+set -o vi
