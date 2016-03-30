@@ -6,6 +6,9 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+# Open a new window of Firefox
+bindsym $mod+Shift+f exec firefox
+
 # Lock the computer
 bindsym $mod+l exec i3lock -i ~/Pictures/wallpapers/fedora_1_large.png --color=000000
 
