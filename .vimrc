@@ -17,6 +17,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'alpertuna/vim-header' " License headers
 NeoBundle 'scrooloose/nerdtree' " Directory display
 NeoBundle 'wakatime/vim-wakatime' " Usage reports to WakaTime
+NeoBundle 'ciaranm/detectindent' " Automatically detect file tabing settings
 
 " Required:
 call neobundle#end()
@@ -37,6 +38,9 @@ let g:header_field_author_email = 'cwellsny@nycap.rr.com'
 
 " NERD Tree
 map <F2> :NERDTreeToggle<CR>
+
+" DetectIndent
+map <F3> :DetectIndent<CR>
 
 " Color column 80
 set colorcolumn=80
