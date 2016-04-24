@@ -38,5 +38,6 @@ bindsym $mod+Shift+9 move container to $WS9
 bindsym $mod+Shift+0 move container to $WS10
 
 # Bind certain applications to certain workspaces
+assign [class="Slack"] $WS8
 assign [class="Evolution"] $WS9
 assign [class="Skype"] $WS10
