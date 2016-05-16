@@ -9,6 +9,18 @@ set $WS7 workspace 7
 set $WS8 workspace 8
 set $WS9 workspace 9
 set $WS10 workspace 10
+set $WS11 workspace 11
+set $WS12 workspace 12
+set $WS13 workspace 13
+set $WS14 workspace 14
+set $WS15 workspace 15
+set $WS16 workspace 16
+set $WS17 workspace 17
+set $WS18 workspace 18
+set $WS19 workspace 19
+set $WS20 workspace 20
+set $WS21 workspace 21
+set $WS22 workspace 22
 
 # switch to workspace
 bindsym $mod+1 $WS1
@@ -21,6 +33,18 @@ bindsym $mod+7 $WS7
 bindsym $mod+8 $WS8
 bindsym $mod+9 $WS9
 bindsym $mod+0 $WS10
+bindsym $mod+F1 $WS11
+bindsym $mod+F2 $WS12
+bindsym $mod+F3 $WS13
+bindsym $mod+F4 $WS14
+bindsym $mod+F5 $WS15
+bindsym $mod+F6 $WS16
+bindsym $mod+F7 $WS17
+bindsym $mod+F8 $WS18
+bindsym $mod+F9 $WS19
+bindsym $mod+F10 $WS20
+bindsym $mod+F11 $WS21
+bindsym $mod+F12 $WS22
 
 # Move the cureent workspace to the other screen
 bindsym $mod+semicolon move workspace to output right
@@ -36,6 +60,18 @@ bindsym $mod+Shift+7 move container to $WS7
 bindsym $mod+Shift+8 move container to $WS8
 bindsym $mod+Shift+9 move container to $WS9
 bindsym $mod+Shift+0 move container to $WS10
+bindsym $mod+Shift+F1 move container to $WS11
+bindsym $mod+Shift+F2 move container to $WS12
+bindsym $mod+Shift+F3 move container to $WS13
+bindsym $mod+Shift+F4 move container to $WS14
+bindsym $mod+Shift+F5 move container to $WS15
+bindsym $mod+Shift+F6 move container to $WS16
+bindsym $mod+Shift+F7 move container to $WS17
+bindsym $mod+Shift+F8 move container to $WS18
+bindsym $mod+Shift+F9 move container to $WS19
+bindsym $mod+Shift+F10 move container to $WS20
+bindsym $mod+Shift+F11 move container to $WS21
+bindsym $mod+Shift+F12 move container to $WS22
 
 # Bind certain applications to certain workspaces
 assign [class="idea"] $WS4
