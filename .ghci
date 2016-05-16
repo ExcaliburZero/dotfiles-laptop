@@ -1,0 +1,2 @@
+-- Set custom GHCI prompt
+:set prompt "λ: "
