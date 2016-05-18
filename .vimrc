@@ -20,6 +20,7 @@ NeoBundle 'jistr/vim-nerdtree-tabs'     " NERD Tree tab handling
 NeoBundle 'wakatime/vim-wakatime'       " Usage reports to WakaTime
 NeoBundle 'ciaranm/detectindent'        " Automatically detect file tabing settings
 NeoBundle 'bling/vim-airline'           " Status line
+NeoBundle 'tpope/vim-fugitive'          " Git wrapper
 
 " Required:
 call neobundle#end()
