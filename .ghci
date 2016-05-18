@@ -1,2 +1,2 @@
 -- Set custom GHCI prompt
-:set prompt "λ: "
+:set prompt "λ ~ "
