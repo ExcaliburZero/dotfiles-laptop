@@ -14,11 +14,12 @@ call neobundle#begin(expand('/home/chris/.vim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " Add or remove your Bundles here:
-NeoBundle 'alpertuna/vim-header' " License headers
-NeoBundle 'scrooloose/nerdtree' " Directory display
-NeoBundle 'jistr/vim-nerdtree-tabs' " NERD Tree tab handling
-NeoBundle 'wakatime/vim-wakatime' " Usage reports to WakaTime
-NeoBundle 'ciaranm/detectindent' " Automatically detect file tabing settings
+NeoBundle 'alpertuna/vim-header'        " License headers
+NeoBundle 'scrooloose/nerdtree'         " Directory display
+NeoBundle 'jistr/vim-nerdtree-tabs'     " NERD Tree tab handling
+NeoBundle 'wakatime/vim-wakatime'       " Usage reports to WakaTime
+NeoBundle 'ciaranm/detectindent'        " Automatically detect file tabing settings
+NeoBundle 'bling/vim-airline'           " Status line
 
 " Required:
 call neobundle#end()
@@ -31,6 +32,8 @@ filetype plugin indent on
 NeoBundleCheck
 "End NeoBundle Scripts-------------------------
 
+" Status bar
+let g:airline_powerline_fonts = 1
 
 " Vim-Header
 let g:header_field_filename = 0
