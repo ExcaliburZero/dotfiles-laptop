@@ -21,6 +21,7 @@ NeoBundle 'wakatime/vim-wakatime'       " Usage reports to WakaTime
 NeoBundle 'ciaranm/detectindent'        " Automatically detect file tabing settings
 NeoBundle 'bling/vim-airline'           " Status line
 NeoBundle 'tpope/vim-fugitive'          " Git wrapper
+NeoBundle 'bling/vim-bufferline'        " Display buffers in status line
 
 " Required:
 call neobundle#end()
