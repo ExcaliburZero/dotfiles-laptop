@@ -21,11 +21,14 @@ bindsym $mod+period exec amixer -c 0 set Master -q 3%+
 
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+#bindsym $mod+d exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+
+# Start rofi, a dmenu replacement
+bindsym $mod+d exec rofi -show run
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
