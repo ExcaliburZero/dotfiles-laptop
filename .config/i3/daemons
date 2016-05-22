@@ -8,5 +8,8 @@ exec /usr/libexec/gnome-settings-daemon-localeexec
 exec dunst
 
 # Set the background using Feh
-exec feh --bg-scale ~/Pictures/wallpapers/fedora_1.png
+#exec feh --bg-scale ~/Pictures/wallpapers/fedora_1.png
+
+# Set the background using nitrogen
+exec --no-startup-id nitrogen --restore
 
