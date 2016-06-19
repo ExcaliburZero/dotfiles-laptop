@@ -53,3 +53,8 @@ set colorcolumn=80
 
 " Enable relative line numbering
 set relativenumber
+
+" Use xclip to set system clipboard to register +
+"
+" Example: "+y    <- Yank line into clipboard
+set clipboard=unnamedplus
