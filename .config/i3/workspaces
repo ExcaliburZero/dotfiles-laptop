@@ -78,3 +78,4 @@ assign [class="idea"] $WS4
 assign [class="Slack"] $WS8
 assign [class="Evolution"] $WS9
 assign [class="Skype"] $WS10
+assign [class="Liferea"] $WS11
