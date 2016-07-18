@@ -1,0 +1,45 @@
+background        no
+out_to_console 	  yes
+out_to_x	  no
+update_interval	  1
+total_run_times	  0
+short_units	  yes
+pad_percents	  3
+
+override_utf8_locale yes
+
+TEXT
+,[
+# Wifi
+${if_match "${upspeedf wlp2s0}" > "0"}
+    {"full_text":"","color":"\#00FF00","separator":false,"separator_block_width":6},\
+    {"full_text":"[${upspeed wlp2s0}]","color":"\#808080","separator":false,"separator_block_width":20},\
+${else}
+    {"full_text":"","color":"\#FF0000","separator":false,"separator_block_width":6},\
+    {"full_text":"Wifi not connected","color":"\#808080","separator":false,"separator_block_width":20},\
+${endif}
+
+# Battery
+${if_match "$battery_percent" >= "50"}
+    {"full_text": "  $battery_percent%", "color": "\#B58900", "separator": false, "separator_block_width": 20},
+
+${else}${if_match "$battery_percent" >= "10"}
+    {"full_text": "  $battery_percent%", "color": "\#B58900", "separator": false, "separator_block_width": 20},
+
+${else}
+    {"full_text": "  $battery_percent%", "color": "\#DD0000", "separator": false, "separator_block_width": 20},
+${endif}
+${endif}
+
+# Temperature
+{"full_text": "  ${exec sensors | grep 'Core 0' | awk '{print $3}'}", "color": "\#DC322F", "separator": false, "separator_block_width": 20},
+
+# Memory
+{"full_text": "  $memperc%", "color": "\#B58900", "separator": false, "separator_block_width": 20},
+
+# CPU
+{"full_text": "  $cpu%", "color": "\#268BD2", "separator": false, "separator_block_width": 20},
+
+# Time and Date
+{"full_text": "  ${time %a %b %d, %H:%M}", "color": "\#33CC99", "separator": false, "separator_block_width": 20}
+]
