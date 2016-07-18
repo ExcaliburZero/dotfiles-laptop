@@ -12,6 +12,9 @@ bindsym $mod+Shift+f exec firefox
 # Open a new window of Google Chrome
 bindsym $mod+Shift+c exec google-chrome
 
+# Open a new window of Nautilus
+bindsym $mod+Shift+n exec nautilus
+
 # Lock the computer
 bindsym $mod+l exec i3lock -i ~/Pictures/wallpapers/fedora_1_large.png --color=000000
 
