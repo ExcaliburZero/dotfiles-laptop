@@ -22,6 +22,8 @@ NeoBundle 'ciaranm/detectindent'        " Automatically detect file tabing setti
 NeoBundle 'bling/vim-airline'           " Status line
 NeoBundle 'tpope/vim-fugitive'          " Git wrapper
 NeoBundle 'bling/vim-bufferline'        " Display buffers in status line
+NeoBundle 'Shougo/vimproc.vim'          " Dependency for ghcmod-vim
+NeoBundle 'eagletmt/ghcmod-vim'         " Haskell hlint and warnings
 
 " Required:
 call neobundle#end()
@@ -58,3 +60,6 @@ set relativenumber
 "
 " Example: "+y    <- Yank line into clipboard
 set clipboard=unnamedplus
+
+" Haskell linting and warning check on file save
+autocmd BufWritePost *.hs GhcModCheckAndLintAsync
