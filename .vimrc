@@ -24,6 +24,7 @@ NeoBundle 'tpope/vim-fugitive'          " Git wrapper
 NeoBundle 'bling/vim-bufferline'        " Display buffers in status line
 NeoBundle 'Shougo/vimproc.vim'          " Dependency for ghcmod-vim
 NeoBundle 'eagletmt/ghcmod-vim'         " Haskell hlint and warnings
+NeoBundle 'derekwyatt/vim-scala'        " Scala support
 
 " Required:
 call neobundle#end()
