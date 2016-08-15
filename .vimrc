@@ -64,3 +64,9 @@ set clipboard=unnamedplus
 
 " Haskell linting and warning check on file save
 autocmd BufWritePost *.hs GhcModCheckAndLintAsync
+
+" Set tabs to be 4 spaces by default
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
