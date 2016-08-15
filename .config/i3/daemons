@@ -13,3 +13,5 @@ exec dunst
 # Set the background using nitrogen
 exec --no-startup-id nitrogen --restore
 
+# Run redshift
+exec redshift
