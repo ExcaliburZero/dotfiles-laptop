@@ -70,3 +70,6 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+
+" For Scala source code use Scala doc comment indentation style
+let g:scala_scaladoc_indent = 1
